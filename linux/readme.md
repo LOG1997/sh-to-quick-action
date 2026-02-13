@@ -39,3 +39,13 @@ cpath
 ```
 
 可以看到正确输出了，并且路径也复制到了剪贴板中。
+
+## 附注
+
+附上我在~/.zshrc的配置
+
+```sh
+alias cpath="~/sh/linux/copy-path.sh"
+alias cfile="~/sh/linux/copy-file-content.sh"
+alias opengit="~/sh/linux/opengit.sh"
+```
