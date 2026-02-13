@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# 功能说明：打开当前文件夹的gi个远程地址
+# 要求：当前文件夹必须是gi个项目
+# 使用方法：[command]
+
 # 检查当前目录是否是Git仓库
 if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
     echo "⚠️ 警告：当前目录不是Git仓库，无法获取远程地址！"

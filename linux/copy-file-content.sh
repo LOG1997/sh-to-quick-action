@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# 功能说明：复制文件内容
+# 要求：安装xlicp（ubuntu使用sudo apt install xclip安装）
+# 使用方法：[command] [params(必传)]
+
 # 检查xclip是否安装
 if ! command -v xclip >/dev/null 2>&1; then
     echo "错误：未安装xclip！请先执行以下命令安装："

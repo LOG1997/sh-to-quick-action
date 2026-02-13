@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# 功能说明：复制路径，参数"."、"./"或空是复制当前路径，带参数则会将参数附加到当前路径
+# 要求：安装xlicp（ubuntu使用sudo apt install xclip安装）
+# 使用方法：[command] [params(选传)]
+
 # 检查Linux剪贴板工具xclip是否安装
 if ! command -v xclip >/dev/null 2>&1; then
   echo "错误：未安装xclip！请先执行以下命令安装："
