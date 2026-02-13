@@ -1,0 +1,24 @@
+[user]
+	name = ***
+	email = ***
+[alias]
+	aa = add .
+	m = merge
+	mc = merge --continue
+	ma = merge --abort
+	s = status
+	p = pull
+    pp = pull -p
+    po = pull origin
+    fp = fetch -p
+	o = checkout
+	b = branch
+    br = branch -r
+	ps = push
+	l = log
+	cl = clone
+	sl = stash list
+	cp = cherry-pick
+
+[init]
+	defaultBranch = main

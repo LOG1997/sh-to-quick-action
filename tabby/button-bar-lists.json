@@ -1,0 +1,105 @@
+{
+  "lists": [
+    {
+      "id": "btn_mlirsh4ayyyb1",
+      "name": "rust",
+      "buttons": [
+        {
+          "label": "cargo build",
+          "color": "#044040",
+          "icon": "backpack",
+          "command": "cargo build",
+          "sendEnter": true,
+          "id": "btn_mlkajcnxlz273"
+        },
+        {
+          "label": "cargo watch",
+          "color": "#044040",
+          "icon": "backpack",
+          "command": "cargo watch -x run",
+          "sendEnter": true,
+          "id": "btn_mlkajcnx2xike"
+        },
+        {
+          "label": "cargo run",
+          "color": "#044040",
+          "icon": "backpack",
+          "command": "cargo run",
+          "sendEnter": true,
+          "id": "btn_mlkajcnxvh3b5"
+        },
+        {
+          "label": "esp-std",
+          "color": "#591C21",
+          "icon": "backpack",
+          "command": "cargo generate esp-rs/esp-idf-template cargo",
+          "sendEnter": true,
+          "id": "btn_mlkb0mcksmtm0"
+        },
+        {
+          "label": "esp-no-std",
+          "color": "#591C21",
+          "icon": "backpack",
+          "command": "esp-generate",
+          "sendEnter": true,
+          "id": "btn_mlkb2hg9bz430"
+        }
+      ]
+    },
+    {
+      "id": "btn_mlkafud99z5pn",
+      "name": "前端",
+      "buttons": [
+        {
+          "label": "install",
+          "color": "#3D3D3D",
+          "icon": "backpack",
+          "command": "pnpm install",
+          "sendEnter": true,
+          "id": "btn_mlkajcnxmmxsi"
+        },
+        {
+          "label": "dev",
+          "color": "#3D3D3D",
+          "icon": "backpack",
+          "command": "pnpm dev",
+          "sendEnter": true,
+          "id": "btn_mlkajcnxqo4ve"
+        },
+        {
+          "label": "build",
+          "color": "#3D3D3D",
+          "icon": "backpack",
+          "command": "pnpm build",
+          "sendEnter": true,
+          "id": "btn_mlkajcnx6l4uo"
+        },
+        {
+          "label": "test",
+          "color": "#3D3D3D",
+          "icon": "backpack",
+          "command": "pnpm test",
+          "sendEnter": true,
+          "id": "btn_mlkajcnx0chg5"
+        },
+        {
+          "label": "tauri dev",
+          "color": "#161F30",
+          "icon": "backpack",
+          "command": "pnpm tauri dev",
+          "sendEnter": true,
+          "id": "btn_mlkajcnx9sw1p"
+        },
+        {
+          "label": "tauri build",
+          "color": "#161F30",
+          "icon": "backpack",
+          "command": "pnpm tauri build",
+          "sendEnter": true,
+          "id": "btn_mlkajcnxmjf89"
+        }
+      ]
+    }
+  ],
+  "activeListId": "btn_mlirsh4ayyyb1"
+}

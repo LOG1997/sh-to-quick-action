@@ -1,0 +1,351 @@
+version: 8
+groups: []
+configSync:
+  parts: {}
+hotkeys:
+  toggle-window:
+    - Ctrl-Space
+  copy-current-path: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - Ctrl-Shift-C
+  paste:
+    - Ctrl-V
+    - Shift-Insert
+  select-all:
+    - Ctrl-Shift-A
+  clear: []
+  zoom-in:
+    - Ctrl-=
+    - Ctrl-Shift-=
+  zoom-out:
+    - Ctrl--
+    - Ctrl-Shift--
+  reset-zoom:
+    - Ctrl-0
+  home:
+    - Home
+  end:
+    - End
+  previous-word:
+    - Ctrl-Left
+  next-word:
+    - Ctrl-Right
+  delete-previous-word:
+    - Ctrl-Backspace
+  delete-line:
+    - Ctrl-Shift-Backspace
+  delete-next-word:
+    - Ctrl-Delete
+  search:
+    - Ctrl-Shift-F
+  pane-focus-all:
+    - Ctrl-Shift-I
+  focus-all-tabs:
+    - Ctrl-Alt-Shift-I
+  scroll-to-top:
+    - Ctrl-PageUp
+  scroll-page-up:
+    - Alt-PageUp
+  scroll-up:
+    - Ctrl-Shift-Up
+  scroll-down:
+    - Ctrl-Shift-Down
+  scroll-page-down:
+    - Alt-PageDown
+  scroll-to-bottom:
+    - Ctrl-PageDown
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings-tab: {}
+  settings:
+    - Ctrl-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-tab:
+    - Ctrl-T
+  new-window:
+    - Ctrl-Shift-N
+  profile: {}
+  profile-selectors: {}
+  group-selectors: {}
+  toggle-fullscreen:
+    - F11
+  close-tab:
+    - Ctrl-W
+  reopen-tab:
+    - Ctrl-Shift-Z
+  toggle-last-tab: []
+  rename-tab:
+    - Ctrl-Shift-R
+  next-tab:
+    - Ctrl-Shift-Right
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Left
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - Ctrl-Shift-PageUp
+  move-tab-right:
+    - Ctrl-Shift-PageDown
+  rearrange-panes:
+    - Ctrl-Shift
+  duplicate-tab: []
+  restart-tab:
+    - Ctrl-R
+  reconnect-tab: []
+  disconnect-tab: []
+  explode-tab:
+    - Ctrl-Shift-.
+  combine-tabs:
+    - Ctrl-Shift-,
+  tab-1:
+    - Alt-1
+  tab-2:
+    - Alt-2
+  tab-3:
+    - Alt-3
+  tab-4:
+    - Alt-4
+  tab-5:
+    - Alt-5
+  tab-6:
+    - Alt-6
+  tab-7:
+    - Alt-7
+  tab-8:
+    - Alt-8
+  tab-9:
+    - Alt-9
+  tab-10:
+    - Alt-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - Alt-Shift-D
+  split-bottom:
+    - Ctrl-Shift-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - Ctrl-Alt-Right
+  pane-nav-down:
+    - Ctrl-Alt-Down
+  pane-nav-up:
+    - Ctrl-Alt-Up
+  pane-nav-left:
+    - Ctrl-Alt-Left
+  pane-nav-previous:
+    - Ctrl-Alt-[
+  pane-nav-next:
+    - Ctrl-Alt-]
+  pane-nav-1: []
+  pane-nav-2: []
+  pane-nav-3: []
+  pane-nav-4: []
+  pane-nav-5: []
+  pane-nav-6: []
+  pane-nav-7: []
+  pane-nav-8: []
+  pane-nav-9: []
+  pane-maximize:
+    - Ctrl-Alt-Enter
+  pane-increase-vertical: []
+  pane-decrease-vertical: []
+  pane-increase-horizontal: []
+  pane-decrease-horizontal: []
+  switch-profile:
+    - Ctrl-Alt-T
+  profile-selector:
+    - Ctrl-Shift-E
+  command-selector:
+    - Ctrl-Shift-P
+  close-pane: []
+  open-sftp-tab:
+    - Ctrl-Shift-S
+  qs:
+    - Alt-S
+  love-shell: []
+  quick-restart:
+    - Alt-Shift-R
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: Tabby Default
+    foreground: '#cacaca'
+    background: '#171717'
+    cursor: '#bbbbbb'
+    colors:
+      - '#000000'
+      - '#ff615a'
+      - '#b1e969'
+      - '#ebd99c'
+      - '#5da9f6'
+      - '#e86aff'
+      - '#82fff7'
+      - '#dedacf'
+      - '#313131'
+      - '#f58c80'
+      - '#ddf88f'
+      - '#eee5b2'
+      - '#a5c7ff'
+      - '#ddaaff'
+      - '#b7fff9'
+      - '#ffffff'
+  font: MesloLGM Nerd Font Mono
+  fontSize: 15
+  lightColorScheme:
+    name: AdventureTime
+    foreground: '#f8dcc0'
+    background: '#1f1d45'
+    cursor: '#efbf38'
+    colors:
+      - '#050404'
+      - '#bd0013'
+      - '#4ab118'
+      - '#e7741e'
+      - '#0f4ac6'
+      - '#665993'
+      - '#70a598'
+      - '#f8dcc0'
+      - '#4e7cbf'
+      - '#fc5f5a'
+      - '#9eff6e'
+      - '#efc11a'
+      - '#1997c6'
+      - '#9b5953'
+      - '#c8faf4'
+      - '#f6f5fb'
+  customColorSchemes: []
+  ligatures: true
+  fontWeight: 600
+  fontWeightBold: 900
+  minimumContrastRatio: 12
+ssh: {}
+clickableLinks: {}
+accessibility: {}
+appearance:
+  vibrancy: true
+  opacity: 0.71
+hacks: {}
+providerBlacklist: []
+commandBlacklist: []
+enableWelcomeTab: false
+pluginBlacklist: []
+profileDefaults:
+  ssh:
+    disableDynamicTitle: true
+backgroundPlugin:
+  backgroundEnabled: true
+  backgroundPath: /home/log1997/Pictures/1080p/WhiteSur.jpg
+  backgrounds: []
+  backgroundOpacity: 86
+  backgroundBlur: 10
+  backgroundBrightness: 104
+  backgroundTerminalToolbarTransparent: 28
+profileBlacklist: []
+highlightPlugin:
+  advanced: {}
+  highlightProfiles:
+    - id: 60606be0-c0ff-42bc-bf77-de8a2435447f
+      name: Default
+      keywords:
+        - text: ERROR
+          enabled: true
+          background: true
+          backgroundColor: '1'
+        - text: WARN
+          enabled: true
+          background: true
+          backgroundColor: '3'
+        - text: INFO
+          enabled: true
+          background: true
+          backgroundColor: '6'
+        - text: 错误
+          enabled: true
+          background: true
+          backgroundColor: '1'
+        - text: 警告
+          enabled: true
+          background: true
+          backgroundColor: '3'
+        - text: 信息
+          enabled: true
+          background: true
+          backgroundColor: '6'
+  replaceProfiles:
+    - id: 986666dd-dac9-4c7a-a295-9b4aff66abdd
+      name: Default
+      patterns:
+        - enabled: true
+          search: ERROR
+          replace: 出错啦
+        - enabled: true
+          search: WARN
+          replace: 警告警告
+  highlightEnabled: true
+qs:
+  scripts: []
+loveShell: {}
+profiles:
+  - type: local
+    name: ssh2sftp_win_template
+    icon: fas fa-terminal
+    options:
+      command: c:\Git\usr\bin\sftp.exe
+      env: {}
+      cwd: ''
+      args:
+        - '-oStrictHostKeyChecking=no'
+        - '-oServerAliveInterval=30'
+        - '-oServerAliveCountMax=1051200'
+        - '-oTCPKeepAlive=yes'
+    group: ssh2sftp_template
+    id: local:custom:ssh2sftp_win_template:c617da05-d05c-482d-8ca6-3c7eb99452e9
+    disableDynamicTitle: true
+    isTemplate: true
+  - type: local
+    name: ssh2sftp_linux_template
+    icon: fas fa-terminal
+    options:
+      command: /usr/bin/sftp
+      env: {}
+      cwd: ''
+      args:
+        - '-oStrictHostKeyChecking=no'
+        - '-oServerAliveInterval=30'
+        - '-oServerAliveCountMax=1051200'
+        - '-oTCPKeepAlive=yes'
+    group: ssh2sftp_template
+    id: local:custom:ssh2sftp_linux_template:6c4bcc75-f690-482a-a882-40e1c9851a3d
+    disableDynamicTitle: true
+    isTemplate: true
+  - type: local
+    name: ssh2sftp_mac_template
+    icon: fas fa-terminal
+    options:
+      command: /usr/local/opt/openssh/bin/sftp
+      args:
+        - '-oStrictHostKeyChecking=no'
+        - '-oServerAliveInterval=30'
+        - '-oServerAliveCountMax=1051200'
+        - '-oTCPKeepAlive=yes'
+      env: {}
+      cwd: ''
+    id: local:custom:ssh2sftp_mac_template:33162a26-7807-4c5e-ac2d-68cd2d9a4a24
+    group: ssh2sftp_template
+    disableDynamicTitle: true
+    isTemplate: true
+trzszPlugin: {}
